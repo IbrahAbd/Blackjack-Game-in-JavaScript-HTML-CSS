@@ -1,0 +1,140 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("table.png");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 100;
+    color: goldenrod;
+}
+
+p{
+    font-size: 35;
+    color: white;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(155, 26, 26);
+    font-weight: bold;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#playButton{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    color: rgb(155, 26, 26);
+    font-weight: bold;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+#replayButton{
+    transform: translate(0px, 550px);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(155, 26, 26);
+    font-weight: bold;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#dPic{
+    margin: 0; 
+    padding: 0; 
+}
+
+#DealerSum{
+    transform: translate(-200px, -25px);
+    margin-bottom: 30px; 
+}
+
+#Cards{
+    margin: -150; 
+    padding: 0;
+    margin-bottom: 30px; 
+}
+
+#Sum{
+    margin-bottom: 30px; 
+}
+
+#BJ{
+    margin-bottom: 30px; 
+}
+
+#win{
+    transform: translate(0px, 0px);
+    font-size: 200;
+    color:white;
+}
+[rank="11"] img {
+    width: 150px; 
+    height: auto; 
+}
+
+[rank="12"] img {
+    width: 150px;/* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+[rank="13"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+[rank="1"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+[rank="2"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="3"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="4"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="5"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="6"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="7"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="8"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="9"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+[rank="10"] img {
+    width: 150px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+

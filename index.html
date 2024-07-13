@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src='elements.cardmeister.full.js'></script>
+        <style>
+        #HiddenContent {
+            display: none; 
+        }
+        #replay {
+            display: none; 
+        }
+        #dPic {
+            width: 200px;
+            height: 200px;
+            transform: translate(-200px, -315px); /* Move the image */
+        }
+        </style>
+    </head>
+    <body>
+        <div id = "HiddenContent">
+
+            <p id = "Dealer">Dealer</p>
+            <p id = "DealerSum"></p>
+            <img id = "dPic" src="dealer.png">
+            
+            <p id = "Cards"></p>
+            <p id = "Sum"></p>
+            <p id = "BJ"></p>
+            
+            <button id="hitButton" onclick="hit()">HIT</button>
+            <button id="standButton" onclick="stand()">STAND</button>
+
+            <script src="index.js"></script>
+        </div>
+
+        <div id = "replay">
+            <button id="replayButton">Play again!</button>
+        </div>
+
+        <h1 id= "title">Blackjack</h1>
+        <button id="playButton" onclick="play()">PLAY</button>
+        <h1 id="win"></h1>
+        <script>
+            const button = document.getElementById('playButton');
+            const standB = document.getElementById('standButton');
+            const HitB = document.getElementById('hitButton');
+            const hiddenContent = document.getElementById('HiddenContent');
+            button.addEventListener('click', function() {
+                hiddenContent.style.display = 'block';
+                button.remove();
+                title.remove();
+            });
+            standB.addEventListener('click', function() {
+                HitB.style.display = 'none';
+                standB.style.display = 'none';
+            });
+
+        </script>
+
+
+
+    </body>
+</html>
